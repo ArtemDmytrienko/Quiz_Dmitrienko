@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            font-family: "Press Start 2P", system-ui;
+        }
+        header{
+            height: 10vb;
+            text-align: center;
+            color: yellow;
+            letter-spacing: 5px;
+            margin-top: 3rem;
+        }
+        main{
+            height: 80vb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #start{
+            text-decoration: none;
+            color: blueviolet;
+            font-size: 4rem;
+            transition: all ease-in-out .5s;
+            animation: rainbow 3s infinite ease-in-out;
+        }
+        #start:hover{
+            transform: scale(1.5);
+        }
+        @keyframes rainbow {
+            0% {color: rgb(255, 0, 0);}
+            25% {color: rgb(0, 17, 255);}
+            50% {color: rgb(255, 251, 0);}
+            75% {color: rgb(77, 215, 67);}
+            100% {color: rgb(255, 145, 0);}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hi> Epic JQuery Project</hi>
+        <h2>Machap</h2>
+    </header>
+    <main>
+        <a href="Task1/index.html" id="start">Start</a>
+    </main>
+</body>
+</html>
